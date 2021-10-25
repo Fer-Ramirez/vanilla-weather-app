@@ -16,7 +16,7 @@
   <body>
     <div class="container">
       <br />
-      <div class="card border-light mb-3" style="max-width: 18rem">
+      <div class="card border-light mb-3" style="max-width: 36rem">
         <div class="card-header">Weather App</div>
         <div class="card-body">
           <nav class="navbar navbar-light" style="background-color: #e3f2fd">
@@ -32,7 +32,32 @@
               </form>
             </div>
           </nav>
-
+                <div class="card-body">
+			<div class="row">
+			<div class="col-sm-4">
+				<h1 class="card-title" id="city">Paris</h1>
+			</div>
+            <div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="d-flex flex-nowrap mr-4">
+                    <span>
+                        <h1 class="weather-icon" id="day-weather-icon">☀️</h1>
+                    </span>
+					<h1>
+					<span class="main-temperature" id="main-temperature">31</span>	
+					</h1>	
+					<a href="#" id="celsius-link">ºC</a>  |
+					<a href="#" id="fahrenheit-link">ºF</a>	   
+				</div>
+			</div>	              
+			<div class="row">
+				<div class="col-sm-4">
+				<h3 class="time" id="date"></h3>              
+				</div>
+				<div class="col-sm-4">
+				<h2 class="day-wheather" id="main-weather"></h2>              
+				</div>	
+			</div>
         </div>
       </div>
     </div>

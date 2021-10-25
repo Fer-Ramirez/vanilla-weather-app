@@ -17,19 +17,24 @@
     <div class="container">
       <br />
       <div class="card border-light mb-3" style="max-width: 36rem">
-        <div class="card-header">Weather App</div>
+        <div class="card-header" style="background-color: #e3f2fd">Weather App</div>
         <div class="card-body">
-          <nav class="navbar navbar-light" style="background-color: #e3f2fd">
+          <nav class="navbar navbar-light">
             <div class="container-fluid">
-              <form class="d-flex">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Enter a city..."
-                  aria-label="Search"
-                />
-                <button class="btn btn-info" type="submit">Search</button>
-              </form>
+                <div class="row">
+                <form class="d-flex">
+                    <div class="col-9">
+                            <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Enter a city..."
+                            />                          
+                     </div>
+                     <div class="col-3 p-10">
+                         <button class="btn btn-info" type="submit">Search</button>                          
+                     </div>  
+                </form>                
+                </div>
             </div>
           </nav>
                 <div class="card-body">
@@ -60,8 +65,8 @@
 			</div>
         </div>
       </div>
-    </div>
 
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
